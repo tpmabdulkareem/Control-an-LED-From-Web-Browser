@@ -2,7 +2,7 @@
 // Connecting to WiFi Network
 const char* ssid = "WiFi name"; 
 const char* password = "WiFi Password";
- 
+
 int ledPin = 13; // GPIO13
 WiFiServer server(80);
  
@@ -97,3 +97,4 @@ void loop() {
   Serial.println("");
  
 }
+ 
